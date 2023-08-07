@@ -4,11 +4,13 @@
 
 replicaCount: 1
 
+# Nginx image to use
 image:
-  repository: nginx
+  #
+  image: nginx
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  # image tag defaults to "stable" if not set
+  tag: "1.25.1"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -67,13 +69,6 @@ resources: {}
   # requests:
   #   cpu: 100m
   #   memory: 128Mi
-
-autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 100
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80
 
 nodeSelector: {}
 
