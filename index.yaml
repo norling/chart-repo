@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  chart-repo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-07T08:19:57.802848512Z"
+    description: A Helm chart for Kubernetes
+    digest: b5d093c4279495f10479070b156e7dd9d2162bd35f268ede2cd46bc801fbb0c2
+    name: chart-repo
+    type: application
+    urls:
+    - https://github.com/norling/chart-repo/releases/download/chart-repo-0.1.0/chart-repo-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-07T08:19:57.802854613Z"
