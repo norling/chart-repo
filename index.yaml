@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/norling/chart-repo/releases/download/chart-repo-0.1.0/chart-repo-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-07T08:19:57.802854613Z"
+  website:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-07T08:37:49.1765465Z"
+    description: A Helm chart for Kubernetes
+    digest: f6ea5c7323e46a6c0b249a8ff3d3d59a4c7927b531fbc7372bdc985f4c543a8b
+    name: website
+    type: application
+    urls:
+    - https://github.com/norling/chart-repo/releases/download/website-0.1.0/website-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-07T08:37:49.1765525Z"
