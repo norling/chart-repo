@@ -51,10 +51,10 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
-  #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
+  issuer:
+    email: admin@example.com
+    # use https://acme-staging-v02.api.letsencrypt.org/directory while staging
+    server: https://acme-v02.api.letsencrypt.org/directory
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
